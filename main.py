@@ -1811,7 +1811,7 @@ class MyPlugin(Star):
 
     @filter.command("查询POPO")
     async def reply_查询POPO(self, event: AstrMessageEvent):
-        yield event.plain_result("2400 已买断 一任供养中")
+        yield event.plain_result("2400 已买断 二任")
 
     @filter.command("一共有多少个云设")
     async def reply_一共有多少个云设(self, event: AstrMessageEvent):
