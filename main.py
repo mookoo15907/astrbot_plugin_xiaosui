@@ -57,7 +57,7 @@ class MyPlugin(Star):
 
 
 # ---- 已有指令：小碎（保留随机多语气） ----
-    @filter.command("小碎")
+    @filter.command("碎碎")
     async def helloworld(self, event: AstrMessageEvent):
         """这是一个 hello world 指令"""
         user_name = event.get_sender_name()
