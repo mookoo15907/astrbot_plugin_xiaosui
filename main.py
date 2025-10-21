@@ -55,9 +55,22 @@ class MyPlugin(Star):
             pass
         return f"name::{event.get_sender_name()}"
 
+    def _time_period(self, now: datetime | None = None) -> str:
+        """按小时划分时间段：早上/中午/下午/晚上/半夜"""
+        h = (now or datetime.now()).hour
+        if 5 <= h <= 10:
+            return "morning"
+        if 11 <= h <= 13:
+            return "noon"
+        if 14 <= h <= 17:
+            return "afternoon"
+        if 18 <= h <= 22:
+            return "evening"
+        return "midnight"  # 23~4
 
-# ---- 已有指令：小碎（保留随机多语气） ----
-    @filter.command("碎碎")
+
+    # ---- 已有指令：小碎（保留随机多语气） ----
+    @filter.command("小碎")
     async def helloworld(self, event: AstrMessageEvent):
         """这是一个 hello world 指令"""
         user_name = event.get_sender_name()
@@ -75,6 +88,9 @@ class MyPlugin(Star):
         ]
         yield event.plain_result(random.choice(replies))
 
+
+
+    
 
 
     async def terminate(self):
