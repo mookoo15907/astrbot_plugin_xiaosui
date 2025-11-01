@@ -1822,8 +1822,8 @@ class MyPlugin(Star):
         yield event.plain_result("晚安~今天也辛苦了！小碎陪你一起入睡~")
 
     @filter.command("陪小碎看星星")
-    async def reply_一共有多少个云设(self, event: AstrMessageEvent):
-        yield event.plain_result("谢谢你能陪小碎看星星(*'▽'*)♪")
+    async def reply_陪小碎看星星(self, event: AstrMessageEvent):
+        yield event.plain_result("谢谢你能陪小碎看星星~(*'▽'*)♪")
 
 
 
