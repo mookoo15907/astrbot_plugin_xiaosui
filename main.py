@@ -1817,6 +1817,14 @@ class MyPlugin(Star):
     async def reply_一共有多少个云设(self, event: AstrMessageEvent):
         yield event.plain_result("到目前为止，录入bot的设定一共有439个哦✧٩(ˊωˋ*)و✧")
 
+    @filter.command("晚安")
+    async def reply_晚安(self, event: AstrMessageEvent):
+        yield event.plain_result("晚安~今天也辛苦了！小碎陪你一起入睡~")
+
+    @filter.command("陪小碎看星星")
+    async def reply_一共有多少个云设(self, event: AstrMessageEvent):
+        yield event.plain_result("谢谢你能陪小碎看星星(*'▽'*)♪")
+
 
 
 
