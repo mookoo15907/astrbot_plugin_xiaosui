@@ -1731,7 +1731,7 @@ class MyPlugin(Star):
 
     @filter.command("查询簌簌")
     async def reply_查询簌簌(self, event: AstrMessageEvent):
-        yield event.plain_result("720 已买断 三任")
+        yield event.plain_result("720 已买断 四任")
 
     @filter.command("查询芭比巴卜")
     async def reply_查询芭比巴卜(self, event: AstrMessageEvent):
