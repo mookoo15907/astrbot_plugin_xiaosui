@@ -955,7 +955,7 @@ class MyPlugin(Star):
 
     @filter.command("查询樱花色富士山和猫")
     async def reply_查询樱花色富士山和猫(self, event: AstrMessageEvent):
-        yield event.plain_result("570 已买断 三任")
+        yield event.plain_result("570 已买断 四任共养中")
 
     @filter.command("查询碎花白狼")
     async def reply_查询碎花白狼(self, event: AstrMessageEvent):
@@ -1795,7 +1795,7 @@ class MyPlugin(Star):
 
     @filter.command("查询天使城邀约")
     async def reply_查询天使城邀约(self, event: AstrMessageEvent):
-        yield event.plain_result("780 已买断")
+        yield event.plain_result("780 已买断 三任")
 
     @filter.command("查询都市恶灵废墟")
     async def reply_查询都市恶灵废墟(self, event: AstrMessageEvent):
