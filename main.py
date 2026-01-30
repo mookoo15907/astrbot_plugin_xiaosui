@@ -1813,14 +1813,13 @@ class MyPlugin(Star):
     async def reply_查询POPO(self, event: AstrMessageEvent):
         yield event.plain_result("2400 已买断 二任")
 
-    @filter.command("查询疯癫的伦琴")
+    @filter.command("查询定制疯癫的伦琴")
     async def reply_查询POPO(self, event: AstrMessageEvent):
         yield event.plain_result("设主是雾凇大人！")
-
     
     @filter.command("一共有多少个云设")
     async def reply_一共有多少个云设(self, event: AstrMessageEvent):
-        yield event.plain_result("到目前为止，录入bot的设定一共有439个哦✧٩(ˊωˋ*)و✧")
+        yield event.plain_result("到目前为止，录入bot的设定一共有440个哦✧٩(ˊωˋ*)و✧")
 
     @filter.command("晚安")
     async def reply_晚安(self, event: AstrMessageEvent):
