@@ -1800,7 +1800,7 @@ class MyPlugin(Star):
     @filter.command("查询都市恶灵废墟")
     async def reply_查询都市恶灵废墟(self, event: AstrMessageEvent):
         yield event.plain_result("1200 已买断 二任")
-
+    
     @filter.command("查询定制雾镜迷城")
     async def reply_查询定制雾镜迷城(self, event: AstrMessageEvent):
         yield event.plain_result("设主是雾凇咪～")
@@ -1809,14 +1809,14 @@ class MyPlugin(Star):
     async def reply_查询定制命运长街(self, event: AstrMessageEvent):
         yield event.plain_result("设主是雾凇咪～")
 
+    @filter.command("查询定制疯癫的伦琴")
+    async def reply_查询定制疯癫的伦琴(self, event: AstrMessageEvent):
+        yield event.plain_result("设主是雾凇大人！")
+
     @filter.command("查询POPO")
     async def reply_查询POPO(self, event: AstrMessageEvent):
         yield event.plain_result("2400 已买断 二任")
 
-    @filter.command("查询定制疯癫的伦琴")
-    async def reply_查询定制疯癫的伦琴(self, event: AstrMessageEvent):
-        yield event.plain_result("设主是雾凇大人！")
-    
     @filter.command("一共有多少个云设")
     async def reply_一共有多少个云设(self, event: AstrMessageEvent):
         yield event.plain_result("到目前为止，录入bot的设定一共有440个哦✧٩(ˊωˋ*)و✧")
