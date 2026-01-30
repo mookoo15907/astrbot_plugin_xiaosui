@@ -1814,7 +1814,7 @@ class MyPlugin(Star):
         yield event.plain_result("2400 已买断 二任")
 
     @filter.command("查询定制疯癫的伦琴")
-    async def reply_查询POPO(self, event: AstrMessageEvent):
+    async def reply_查询定制疯癫的伦琴(self, event: AstrMessageEvent):
         yield event.plain_result("设主是雾凇大人！")
     
     @filter.command("一共有多少个云设")
