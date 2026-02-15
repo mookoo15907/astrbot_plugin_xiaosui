@@ -1239,7 +1239,7 @@ class MyPlugin(Star):
 
     @filter.command("查询无效祷告")
     async def reply_查询无效祷告(self, event: AstrMessageEvent):
-        yield event.plain_result("270 已买断")
+        yield event.plain_result("270 已买断 二任")
 
     @filter.command("查询糖渍玻璃")
     async def reply_查询糖渍玻璃(self, event: AstrMessageEvent):
@@ -1813,6 +1813,38 @@ class MyPlugin(Star):
     async def reply_查询定制疯癫的伦琴(self, event: AstrMessageEvent):
         yield event.plain_result("设主是雾凇大人！")
 
+    @filter.command("查询小默和小恰")
+    async def reply_查询小默和小恰(self, event: AstrMessageEvent):
+        yield event.plain_result("870 已买断")
+
+    @filter.command("查询绝版幸运")
+    async def reply_查询绝版幸运(self, event: AstrMessageEvent):
+        yield event.plain_result("580 未买断")
+
+    @filter.command("查询璐璐")
+    async def reply_查询璐璐(self, event: AstrMessageEvent):
+        yield event.plain_result("560 未买断")
+
+    @filter.command("查询苹果与肉桂")
+    async def reply_查询苹果与肉桂(self, event: AstrMessageEvent):
+        yield event.plain_result("560 未买断")
+
+    @filter.command("查询浮游")
+    async def reply_查询浮游(self, event: AstrMessageEvent):
+        yield event.plain_result("620 未买断")
+
+    @filter.command("查询幽灵星期五")
+    async def reply_查询幽灵星期五(self, event: AstrMessageEvent):
+        yield event.plain_result("580 未买断")
+
+    @filter.command("查询昨日颂")
+    async def reply_查询昨日颂(self, event: AstrMessageEvent):
+        yield event.plain_result("560 未买断")    
+
+    @filter.command("查询过度包装")
+    async def reply_查询过度包装(self, event: AstrMessageEvent):
+        yield event.plain_result("600 未买断")  
+    
     @filter.command("查询POPO")
     async def reply_查询POPO(self, event: AstrMessageEvent):
         yield event.plain_result("2400 已买断 二任")
