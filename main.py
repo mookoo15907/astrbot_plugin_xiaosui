@@ -1651,7 +1651,7 @@ class MyPlugin(Star):
 
     @filter.command("查询逃亡花园中")
     async def reply_查询逃亡花园中(self, event: AstrMessageEvent):
-        yield event.plain_result("2000 已买断 二任")
+        yield event.plain_result("2000 已买断 三任")
 
     @filter.command("查询低温的星星")
     async def reply_查询低温的星星(self, event: AstrMessageEvent):
@@ -1747,7 +1747,7 @@ class MyPlugin(Star):
 
     @filter.command("查询BLUES")
     async def reply_查询BLUES(self, event: AstrMessageEvent):
-        yield event.plain_result("800 已买断 二任")
+        yield event.plain_result("800 已买断 三任")
 
     @filter.command("查询北芪与白山")
     async def reply_查询北芪与白山(self, event: AstrMessageEvent):
@@ -1844,6 +1844,22 @@ class MyPlugin(Star):
     @filter.command("查询过度包装")
     async def reply_查询过度包装(self, event: AstrMessageEvent):
         yield event.plain_result("600 未买断")  
+
+    @filter.command("查询阿檀")
+    async def reply_查询阿檀(self, event: AstrMessageEvent):
+        yield event.plain_result("870 已买断")  
+
+    @filter.command("查询坏学生档案")
+    async def reply_查询坏学生档案(self, event: AstrMessageEvent):
+        yield event.plain_result("580 未买断")  
+
+    @filter.command("查询定制清醒梦")
+    async def reply_查询定制清醒梦(self, event: AstrMessageEvent):
+        yield event.plain_result("设主是雾凇~")  
+
+    @filter.command("查询机械芝拉")
+    async def reply_查询机械芝拉(self, event: AstrMessageEvent):
+        yield event.plain_result("600 未买断")      
     
     @filter.command("查询POPO")
     async def reply_查询POPO(self, event: AstrMessageEvent):
@@ -1851,7 +1867,7 @@ class MyPlugin(Star):
 
     @filter.command("一共有多少个云设")
     async def reply_一共有多少个云设(self, event: AstrMessageEvent):
-        yield event.plain_result("到目前为止，录入bot的设定一共有440个哦✧٩(ˊωˋ*)و✧")
+        yield event.plain_result("到目前为止，录入bot的设定一共有444个哦✧٩(ˊωˋ*)و✧")
 
     @filter.command("晚安")
     async def reply_晚安(self, event: AstrMessageEvent):
