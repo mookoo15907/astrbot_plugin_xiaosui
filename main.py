@@ -1860,6 +1860,10 @@ class MyPlugin(Star):
     @filter.command("查询机械芝拉")
     async def reply_查询机械芝拉(self, event: AstrMessageEvent):
         yield event.plain_result("600 未买断")      
+
+    @filter.command("查询米卡日记簿")
+    async def reply_查询米卡日记簿(self, event: AstrMessageEvent):
+        yield event.plain_result("650 未买断")  
     
     @filter.command("查询POPO")
     async def reply_查询POPO(self, event: AstrMessageEvent):
@@ -1867,7 +1871,7 @@ class MyPlugin(Star):
 
     @filter.command("一共有多少个云设")
     async def reply_一共有多少个云设(self, event: AstrMessageEvent):
-        yield event.plain_result("到目前为止，录入bot的设定一共有444个哦✧٩(ˊωˋ*)و✧")
+        yield event.plain_result("到目前为止，录入bot的设定一共有445个哦✧٩(ˊωˋ*)و✧")
 
     @filter.command("晚安")
     async def reply_晚安(self, event: AstrMessageEvent):
