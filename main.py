@@ -1287,7 +1287,7 @@ class MyPlugin(Star):
 
     @filter.command("查询白化别西卜")
     async def reply_查询白化别西卜(self, event: AstrMessageEvent):
-        yield event.plain_result("180 未买断 小葵的✧٩(ˊωˋ*)و✧明天我也p到！")
+        yield event.plain_result("180 未买断 是小葵的✧٩(ˊωˋ*)و")
 
     @filter.command("查询炙烤虾饼")
     async def reply_查询炙烤虾饼(self, event: AstrMessageEvent):
@@ -1327,7 +1327,7 @@ class MyPlugin(Star):
 
     @filter.command("查询哩哩")
     async def reply_查询哩哩(self, event: AstrMessageEvent):
-        yield event.plain_result("270 已买断 二任 在小葵家～～")
+        yield event.plain_result("270 已买断 二任 在小葵家～")
 
     @filter.command("查询定制爱心小草莓")
     async def reply_查询定制爱心小草莓(self, event: AstrMessageEvent):
