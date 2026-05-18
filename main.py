@@ -1207,7 +1207,7 @@ class MyPlugin(Star):
 
     @filter.command("查询chi掉苹果")
     async def reply_查询chi掉苹果(self, event: AstrMessageEvent):
-        yield event.plain_result("170 未买断 也是小葵的≥﹏≤我什么时候能p到葵设")
+        yield event.plain_result("170 未买断 也是小葵的≥﹏≤")
 
     @filter.command("查询BOBO")
     async def reply_查询BOBO(self, event: AstrMessageEvent):
@@ -1259,7 +1259,7 @@ class MyPlugin(Star):
 
     @filter.command("查询脆脆竹")
     async def reply_查询脆脆竹(self, event: AstrMessageEvent):
-        yield event.plain_result("180 未买断 在小葵家～下次就p到葵设！")
+        yield event.plain_result("180 未买断 在小葵家～")
 
     @filter.command("查询定制文学少女")
     async def reply_查询定制文学少女(self, event: AstrMessageEvent):
