@@ -1231,7 +1231,7 @@ class MyPlugin(Star):
 
     @filter.command("查询超时链接")
     async def reply_查询超时链接(self, event: AstrMessageEvent):
-        yield event.plain_result("170 未买断")
+        yield event.plain_result("255 已买断 二任")
 
     @filter.command("查询距离恒定")
     async def reply_查询距离恒定(self, event: AstrMessageEvent):
