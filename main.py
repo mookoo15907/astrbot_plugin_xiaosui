@@ -1671,7 +1671,7 @@ class MyPlugin(Star):
 
     @filter.command("查询幸福过敏")
     async def reply_查询幸福过敏(self, event: AstrMessageEvent):
-        yield event.plain_result("630 已买断")
+        yield event.plain_result("630 已买断 二任")
 
     @filter.command("查询雪国往事")
     async def reply_查询雪国往事(self, event: AstrMessageEvent):
@@ -1847,7 +1847,7 @@ class MyPlugin(Star):
 
     @filter.command("查询阿檀")
     async def reply_查询阿檀(self, event: AstrMessageEvent):
-        yield event.plain_result("870 已买断")  
+        yield event.plain_result("870 已买断 二任")  
 
     @filter.command("查询坏学生档案")
     async def reply_查询坏学生档案(self, event: AstrMessageEvent):
@@ -1863,7 +1863,7 @@ class MyPlugin(Star):
 
     @filter.command("查询米卡日记簿")
     async def reply_查询米卡日记簿(self, event: AstrMessageEvent):
-        yield event.plain_result("650 未买断")  
+        yield event.plain_result("975 已买断 二任")  
     
     @filter.command("查询POPO")
     async def reply_查询POPO(self, event: AstrMessageEvent):
