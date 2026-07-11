@@ -1203,7 +1203,7 @@ class MyPlugin(Star):
 
     @filter.command("查询电子速成犬")
     async def reply_查询电子速成犬(self, event: AstrMessageEvent):
-        yield event.plain_result("255 已买断 二任")
+        yield event.plain_result("255 已买断 三任")
 
     @filter.command("查询chi掉苹果")
     async def reply_查询chi掉苹果(self, event: AstrMessageEvent):
@@ -1211,7 +1211,7 @@ class MyPlugin(Star):
 
     @filter.command("查询BOBO")
     async def reply_查询BOBO(self, event: AstrMessageEvent):
-        yield event.plain_result("255 已买断 二任")
+        yield event.plain_result("255 已买断 三任")
 
     @filter.command("查询餐盘与心脏")
     async def reply_查询餐盘与心脏(self, event: AstrMessageEvent):
@@ -1864,6 +1864,10 @@ class MyPlugin(Star):
     @filter.command("查询米卡日记簿")
     async def reply_查询米卡日记簿(self, event: AstrMessageEvent):
         yield event.plain_result("975 已买断 二任")  
+
+    @filter.command("查询空白帧")
+    async def reply_查询空白帧(self, event: AstrMessageEvent):
+        yield event.plain_result("580 未买断 二人共养中")
     
     @filter.command("查询POPO")
     async def reply_查询POPO(self, event: AstrMessageEvent):
@@ -1871,7 +1875,7 @@ class MyPlugin(Star):
 
     @filter.command("一共有多少个云设")
     async def reply_一共有多少个云设(self, event: AstrMessageEvent):
-        yield event.plain_result("到目前为止，录入bot的设定一共有445个哦✧٩(ˊωˋ*)و✧")
+        yield event.plain_result("到目前为止，录入bot的设定一共有446个哦✧٩(ˊωˋ*)و✧")
 
     @filter.command("晚安")
     async def reply_晚安(self, event: AstrMessageEvent):
