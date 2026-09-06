@@ -1819,7 +1819,7 @@ class MyPlugin(Star):
 
     @filter.command("查询绝版幸运")
     async def reply_查询绝版幸运(self, event: AstrMessageEvent):
-        yield event.plain_result("580 未买断")
+        yield event.plain_result("870 已买断 二任")
 
     @filter.command("查询璐璐")
     async def reply_查询璐璐(self, event: AstrMessageEvent):
@@ -1839,7 +1839,7 @@ class MyPlugin(Star):
 
     @filter.command("查询昨日颂")
     async def reply_查询昨日颂(self, event: AstrMessageEvent):
-        yield event.plain_result("560 未买断")    
+        yield event.plain_result("840 已买断 二任")    
 
     @filter.command("查询过度包装")
     async def reply_查询过度包装(self, event: AstrMessageEvent):
