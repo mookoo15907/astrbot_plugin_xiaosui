@@ -295,7 +295,7 @@ class MyPlugin(Star):
 
     @filter.command("查询小行星与宇航员")
     async def reply_查询小行星与宇航员(self, event: AstrMessageEvent):
-        yield event.plain_result("60 未买断")
+        yield event.plain_result("90 已买断")
 
     @filter.command("查询24小时自动贩售机猫猫")
     async def reply_查询24小时自动贩售机猫猫(self, event: AstrMessageEvent):
@@ -1719,7 +1719,7 @@ class MyPlugin(Star):
 
     @filter.command("查询定制遐迩之月")
     async def reply_查询定制遐迩之月(self, event: AstrMessageEvent):
-        yield event.plain_result("设主是池上月～")
+        yield event.plain_result("设主是穷崽～")
 
     @filter.command("查询零点一冰室")
     async def reply_查询零点一冰室(self, event: AstrMessageEvent):
@@ -1811,7 +1811,7 @@ class MyPlugin(Star):
 
     @filter.command("查询定制疯癫的伦琴")
     async def reply_查询定制疯癫的伦琴(self, event: AstrMessageEvent):
-        yield event.plain_result("设主是雾凇大人！")
+        yield event.plain_result("设主是雾凇！")
 
     @filter.command("查询小默和小恰")
     async def reply_查询小默和小恰(self, event: AstrMessageEvent):
@@ -1853,10 +1853,6 @@ class MyPlugin(Star):
     async def reply_查询坏学生档案(self, event: AstrMessageEvent):
         yield event.plain_result("580 未买断")  
 
-    @filter.command("查询定制清醒梦")
-    async def reply_查询定制清醒梦(self, event: AstrMessageEvent):
-        yield event.plain_result("设主是雾凇~")  
-
     @filter.command("查询机械芝拉")
     async def reply_查询机械芝拉(self, event: AstrMessageEvent):
         yield event.plain_result("600 未买断")      
@@ -1867,7 +1863,15 @@ class MyPlugin(Star):
 
     @filter.command("查询空白帧")
     async def reply_查询空白帧(self, event: AstrMessageEvent):
-        yield event.plain_result("580 未买断 二人共养中")
+        yield event.plain_result("870 已买断")
+
+    @filter.command("查询IF")
+    async def reply_查询IF(self, event: AstrMessageEvent):
+        yield event.plain_result("520 未买断")
+
+    @filter.command("查询ONLY")
+    async def reply_查询ONLY(self, event: AstrMessageEvent):
+        yield event.plain_result("580 未买断")
     
     @filter.command("查询POPO")
     async def reply_查询POPO(self, event: AstrMessageEvent):
@@ -1875,7 +1879,7 @@ class MyPlugin(Star):
 
     @filter.command("一共有多少个云设")
     async def reply_一共有多少个云设(self, event: AstrMessageEvent):
-        yield event.plain_result("到目前为止，录入bot的设定一共有446个哦✧٩(ˊωˋ*)و✧")
+        yield event.plain_result("到目前为止，录入bot的设定一共有448个哦✧٩(ˊωˋ*)و✧")
 
     @filter.command("晚安")
     async def reply_晚安(self, event: AstrMessageEvent):
